@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl_auto: update
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/board
+    username: root
+    password:
+
+  data:
+    redis:
+      host: localhost
+      port: 6379

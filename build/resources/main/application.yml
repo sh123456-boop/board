@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: local
+
+  security:
+    user:
+      name: user
+      password: password

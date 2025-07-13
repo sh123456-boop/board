@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl_auto: none
+
+  datasource:
+    url: jdbc:mysql://board-db.cfau62iywdxj.ap-northeast-2.rds.amazonaws.com:3306/board
+    username: admin
+    password: ${SPRING_DATASOURCE_PASSWORD}
+
+  data:
+    redis:
+      host: board-redis.o01wzy.ng.0001.apn2.cache.amazonaws.com
+      port: 6379
