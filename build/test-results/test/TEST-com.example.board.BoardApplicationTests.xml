@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.board.BoardApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-13T08:42:49.846Z" hostname="haseonghun-ui-MacBookAir.local" time="0.201">
+<testsuite name="com.example.board.BoardApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-13T10:09:29.549Z" hostname="haseonghun-ui-MacBookAir.local" time="0.201">
   <properties/>
   <testcase name="contextLoads()" classname="com.example.board.BoardApplicationTests" time="0.201"/>
-  <system-out><![CDATA[17:42:47.792 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.board.BoardApplicationTests]: BoardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:42:47.831 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.board.BoardApplication for test class com.example.board.BoardApplicationTests
+  <system-out><![CDATA[19:09:27.511 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.board.BoardApplicationTests]: BoardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:09:27.545 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.board.BoardApplication for test class com.example.board.BoardApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,24 +14,24 @@
 
  :: Spring Boot ::                (v3.5.3)
 
-2025-07-13T17:42:47.979+09:00  INFO 6336 --- [    Test worker] c.example.board.BoardApplicationTests    : Starting BoardApplicationTests using Java 17.0.15 with PID 6336 (started by sunghoon in /Users/sunghoon/Desktop/카카오 부트캠프/board)
-2025-07-13T17:42:47.980+09:00  INFO 6336 --- [    Test worker] c.example.board.BoardApplicationTests    : The following 1 profile is active: "local"
-2025-07-13T17:42:48.216+09:00  INFO 6336 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-13T17:42:48.217+09:00  INFO 6336 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-13T17:42:48.265+09:00  INFO 6336 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
-2025-07-13T17:42:48.270+09:00  INFO 6336 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-07-13T17:42:48.271+09:00  INFO 6336 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-07-13T17:42:48.275+09:00  INFO 6336 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.board.repository.PostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-13T17:42:48.276+09:00  INFO 6336 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.board.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-07-13T17:42:48.276+09:00  INFO 6336 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
-2025-07-13T17:42:48.502+09:00  INFO 6336 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-13T17:42:48.516+09:00  INFO 6336 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-13T17:42:48.526+09:00  INFO 6336 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-13T17:42:48.603+09:00  INFO 6336 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-13T17:42:48.611+09:00  INFO 6336 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-13T17:42:48.716+09:00  INFO 6336 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11e3d08
-2025-07-13T17:42:48.717+09:00  INFO 6336 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-13T17:42:48.746+09:00  INFO 6336 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-07-13T19:09:27.677+09:00  INFO 7968 --- [    Test worker] c.example.board.BoardApplicationTests    : Starting BoardApplicationTests using Java 17.0.15 with PID 7968 (started by sunghoon in /Users/sunghoon/Desktop/카카오 부트캠프/board)
+2025-07-13T19:09:27.678+09:00  INFO 7968 --- [    Test worker] c.example.board.BoardApplicationTests    : The following 1 profile is active: "local"
+2025-07-13T19:09:27.928+09:00  INFO 7968 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-13T19:09:27.929+09:00  INFO 7968 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-13T19:09:27.979+09:00  INFO 7968 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2025-07-13T19:09:27.985+09:00  INFO 7968 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-13T19:09:27.985+09:00  INFO 7968 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-07-13T19:09:27.990+09:00  INFO 7968 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.board.repository.PostRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-07-13T19:09:27.990+09:00  INFO 7968 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.board.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-07-13T19:09:27.990+09:00  INFO 7968 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-07-13T19:09:28.210+09:00  INFO 7968 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-13T19:09:28.226+09:00  INFO 7968 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-13T19:09:28.236+09:00  INFO 7968 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-13T19:09:28.325+09:00  INFO 7968 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-13T19:09:28.333+09:00  INFO 7968 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-13T19:09:28.442+09:00  INFO 7968 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51c6e775
+2025-07-13T19:09:28.442+09:00  INFO 7968 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-13T19:09:28.471+09:00  INFO 7968 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 9.3
@@ -39,12 +39,12 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-13T17:42:49.037+09:00  INFO 6336 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-13T17:42:49.068+09:00  INFO 6336 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-13T17:42:49.185+09:00  INFO 6336 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-13T17:42:49.465+09:00  WARN 6336 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-13T17:42:49.488+09:00  INFO 6336 --- [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-07-13T17:42:49.802+09:00  INFO 6336 --- [    Test worker] c.example.board.BoardApplicationTests    : Started BoardApplicationTests in 1.919 seconds (process running for 2.295)
+2025-07-13T19:09:28.750+09:00  INFO 7968 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-13T19:09:28.780+09:00  INFO 7968 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-13T19:09:28.900+09:00  INFO 7968 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-13T19:09:29.175+09:00  WARN 7968 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-13T19:09:29.197+09:00  INFO 7968 --- [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-13T19:09:29.510+09:00  INFO 7968 --- [    Test worker] c.example.board.BoardApplicationTests    : Started BoardApplicationTests in 1.921 seconds (process running for 2.279)
 ==== 관리자 계정이 이미 존재합니다 ====
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

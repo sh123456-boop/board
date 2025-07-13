@@ -12,3 +12,4 @@ spring:
     redis:
       host: board-redis.o01wzy.ng.0001.apn2.cache.amazonaws.com
       port: 6379
+
